@@ -1,0 +1,22 @@
+body{
+    background-image: url("images/background.png");
+    background-color: #b3b6fc;
+    background-size: 75px;
+    color: #2b2a28;
+}
+.fp-header{
+    background-color: #ccdffc;
+
+}
+.logo{
+    width: 75px;
+    height: 75px;
+}
+.logo-text{
+
+}
+.fp-main{
+    margin-left: 75px;
+    margin-right: 75px;
+    background-color: #ccdffc;
+}
