@@ -1,22 +1,155 @@
+
 body{
+    font-family: 'Play', sans-serif;
     background-image: url("images/background.png");
     background-color: #b3b6fc;
     background-size: 75px;
     color: #2b2a28;
+    margin: 0;
+}
+p{
+    line-height: 25px;
+}
+.fp-main{
+    margin-top: 15px;
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .fp-header{
     background-color: #ccdffc;
-
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 50px 10px 20px;
 }
 .logo{
-    width: 75px;
-    height: 75px;
+    width: 400px;
+    display: flex;
+    align-self: center;
 }
-.logo-text{
+.menu{
+    list-style: none;
+    display: flex;
+    padding-top: 20px;
 
+}
+.header-nav ul .menuItem{
+    padding-left: 20px;
+}
+.nav-item{
+    text-decoration: none;
+    color: #2b2a28;
+    font-size: 18px;
+}
+.nav-item:hover{
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 .fp-main{
     margin-left: 75px;
     margin-right: 75px;
     background-color: #ccdffc;
+}
+.fp-main-header:first-letter{
+    margin-left: 25px;
+}
+.fp-main-text:first-letter{
+    margin-left: 25px;
+}
+.animation{
+    float: right;
+    width: 60%;
+    height: 60%;
+}
+ul:not(.menu) {
+    overflow: hidden;
+    max-height: 0;
+    transition: 0.5s ease-out;
+}
+li:hover>ul {
+    max-height:100vh;
+    transition: 0.5s ease-in;
+}
+.places-list{
+    position: absolute;
+    list-style: none;
+    padding-left: 0;
+}
+.places-list-item{
+    padding: 5px 5px 5px 5px;
+    background-color: #ccdffc;
+}
+.places-list-item:last-child{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.places-list-item:hover{
+    background-color: #b6cae6;
+}
+.places-list-item a{
+    text-decoration: none;
+    color: #2b2a28;
+}
+.fp-footer{
+    width: 100%;
+    height: 200px;
+    border-top: 2px solid #b3b6fc;
+    background-color: #ccdffc;
+}
+.fp-main-fish-header{
+    text-align: center;
+}
+#fish-list{
+    overflow: visible;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 40px;
+    font-weight: bold;
+}
+#fish-list li:hover{
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.fish-img{
+    float: right;
+    width: 30%;
+    height: 30%;
+    position: relative;
+    bottom: 70px;
+}
+article{
+    margin-top: 50px;
+}
+.fish-header{
+    text-align: center;
+}
+.fisherman{
+    float: right;
+    width: 300px;
+    height: 200px;
+}
+.place-name{
+    text-decoration: none;
+    color: #2b2a28;
+    font-weight: bold;
+}
+.place-name:hover{
+    text-decoration: underline;
+}
+.tackle-img{
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+.fp-map, .fish-link{
+    text-decoration: none;
+    color: #2b2a28;
+}
+.fp-map, .fish-link:hover{
+    text-decoration: underline;
+}
+.place-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
