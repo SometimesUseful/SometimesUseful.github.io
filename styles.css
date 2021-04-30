@@ -176,7 +176,12 @@ article{
 }
 #scrollUp a{
     text-decoration: none;
+    color: #fff;
 }
 #scrollUp a:visited{
     color: #fff;
+}
+#scrollUp:hover{
+    color: #2b2a28;
+    background-color: #fff;
 }
